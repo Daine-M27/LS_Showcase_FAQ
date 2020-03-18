@@ -2,7 +2,19 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Whats new at The Light Source
+  img(scr="/images/slide1.jpg")
+  .slideshow-container
+    img(scr="/images/slide1.jpg").w100
+    for slide in allSlides.slides         
+      .mySlides.fade        
+        //.numbertext= i+"/"+allSlides.slides.length
+        img(scr="/images/slide1.jpg").w100
+        .text=slide.text
+  br
+  //- .text-center
+  //-   for var x=0; x < allSlides.slides.length; x++
+  //-     span.dot
 
   for question in questions.faq
     button.accordion= question.Question
