@@ -4,6 +4,8 @@ block content
   h1= title
   p Welcome to #{title}
 
-  for question in faqData
-    p #{question.question}
-    p #{question.answer}
+  for question in questions.faq
+    button.accordion= question.Question
+    .panel
+      p= question.Answer
+   
