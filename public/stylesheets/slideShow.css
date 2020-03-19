@@ -1,8 +1,35 @@
 .mySlides {display: none;}
-img {vertical-align: middle;}
+
+.button {    
+    width: auto;
+    height: auto;
+    background: #000000;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+    
+}
 .w100 {
-    width: 100%;
+    width: auto;
     height: 60vh;
+}
+
+div.img-container{
+    text-align: center;
+    width: 100%;
+    border: #000000 solid 1px;
+}
+
+div.text-container{
+    padding-bottom:25px;
 }
 
 /* Slideshow container */
@@ -14,10 +41,10 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   bottom: 8px;
   width: 100%;
   text-align: center;

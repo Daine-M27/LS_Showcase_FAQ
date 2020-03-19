@@ -1,5 +1,5 @@
 {"slides":[
-    {"imgSrc":"http://www.thelightsource.com/products/221/photos/1553/huge_color/image.jpg", "text":"Some text about the image one"},
-    {"imgSrc":"http://www.thelightsource.com/products/196/photos/1390/huge_color/image.jpg", "text":"Some text about the image two"},
-    {"imgSrc":"http://www.thelightsource.com/products/1/photos/761/huge_color/image.jpg", "text":"Some text about the image three"}    
+    {"imgSrc":"http://www.thelightsource.com/products/221/photos/1553/huge_color/image.jpg", "text":"Some text about the image one","url":"http://www.thelightsource.com/products/gym-light-cage-221" },
+    {"imgSrc":"http://www.thelightsource.com/products/196/photos/1390/huge_color/image.jpg", "text":"Some text about the image two","url":"http://www.thelightsource.com/products/megabatten-connector-strip-196" },
+    {"imgSrc":"http://www.thelightsource.com/products/1/photos/761/huge_color/image.jpg", "text":"Some text about the image three", "url":"http://www.thelightsource.com/products/mega-clamp-1"}    
 ]}

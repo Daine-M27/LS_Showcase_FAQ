@@ -1,5 +1,8 @@
 * {box-sizing: border-box;}
 body {
+  margin: auto;
+  text-align: center;
+  max-width: 70vw;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
