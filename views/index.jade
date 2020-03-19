@@ -18,9 +18,9 @@ block content
   //- .text-center
   //-   for var x=0; x < allSlides.slides.length; x++
   //-     span.dot
-
-  for question in questions.faq
-    button.accordion= question.Question
-    .panel
-      p= question.Answer
+  .accordian-container    
+    for question in questions.faq
+      button.accordion= question.Question
+      .panel
+        p= question.Answer
    
