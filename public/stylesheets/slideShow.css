@@ -36,7 +36,7 @@ div.text-container{
 /* Slideshow container */
 .slideshow-container {
   border: #000000 solid 1px;  
-  max-width: 1000px;
+  width: 100%;
   position: relative;
   margin: auto;  
 }
