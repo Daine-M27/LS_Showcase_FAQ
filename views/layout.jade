@@ -2,12 +2,27 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    link(rel='stylesheet', href='/stylesheets/style.css')    
     link(rel='stylesheet', href='/stylesheets/accordianStyle.css')
     link(rel='stylesheet', href='/stylesheets/slideShow.css')
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
         
-  body
+  body    
+    div(id="header")
+      div(id="tabs")
+        .tab
+          a(href="http://www.thelightsource.com/products") Products
+        .tab
+          a(href="http://www.thelightsource.com/dealers") Dealers
+        .tab
+          a(href="http://www.thelightsource.com/resources") Resources
+        .tab
+          a(href="http://www.thelightsource.com/contact") Contact
+        .tab.special
+          a(href="http://www.thelightsource.com/office") Dealer Zone
+      h1 Showcase
+
     block content
     script(src="/javascripts/slideShowControls.js")
     script(src="/javascripts/accordianButtonControls.js")

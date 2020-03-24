@@ -1,26 +1,28 @@
 extends layout
 
 block content
-  h1= title
-  p Whats new at The Light Source
-  
-  .slideshow-container
+  #contents
+    h1= title
+    p Whats new at The Light Source
     
-    for slide in allSlides.slides         
-      .mySlides.fade        
-        //.numbertext= i+"/"+allSlides.slides.length
-        div.img-container
-          img(src=slide.imgSrc style="height:60vh").w100
-          div.text-container
-            .text=slide.text
-            a(class='button' href=slide.url) More Info
-  br
-  //- .text-center
-  //-   for var x=0; x < allSlides.slides.length; x++
-  //-     span.dot
-  .accordian-container    
-    for question in questions.faq
-      button.accordion= question.Question
-      .panel
-        p= question.Answer
-   
+    .slideshow-container
+      
+      for slide in allSlides.slides         
+        .mySlides.fade        
+          //.numbertext= i+"/"+allSlides.slides.length
+          div.img-container
+            img(src=slide.imgSrc style="height:60vh").w100
+            div.text-container
+              .text=slide.text
+              a(class='button' href=slide.url) More Info
+    br
+    //- .text-center
+    //-   for var x=0; x < allSlides.slides.length; x++
+    //-     span.dot
+    .accordian-container    
+      for question in questions.faq
+        button.accordion= question.Question
+        .panel
+          p= question.Answer
+
+          
