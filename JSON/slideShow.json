@@ -1,5 +1,14 @@
-{"slides":[
-    {"imgSrc":"http://www.thelightsource.com/products/221/photos/1553/huge_color/image.jpg", "text":"Some text about the image one","url":"http://www.thelightsource.com/products/gym-light-cage-221" },
-    {"imgSrc":"http://www.thelightsource.com/products/196/photos/1390/huge_color/image.jpg", "text":"Some text about the image two","url":"http://www.thelightsource.com/products/megabatten-connector-strip-196" },
-    {"imgSrc":"http://www.thelightsource.com/products/1/photos/761/huge_color/image.jpg", "text":"Some text about the image three", "url":"http://www.thelightsource.com/products/mega-clamp-1"}    
-]}
+{
+    "slides": [
+        {
+            "imgSrc": "../images/GymLightWeb.jpg",
+            "text": "The Gym Light Cage is an easy to assemble protective cage for performance lights in a sports environment.  The smooth, rounded structure has openings of less than 5 inches.   30\" or 36\" square end sections are connected by four 1-1/2\" schedule 80 pipe sections and by 20 pre-terminated 1/8\" aircraft cables.  The Gym Light Cage is available with a MEGABATTEN which provides data and power outlets for the light fixture.  The Gym Light Cage ships flat, saving hundreds of dollars in freight charges.",
+            "url": "http://www.thelightsource.com/products/gym-light-cage-221"
+        },
+        {
+            "imgSrc": "../images/MegaCouplerGrounderWeb.jpg",
+            "text": "The Mega-Coupler® Grounder™ is the solution for preventing truss and pipe from becoming accidentally charged by malfunctioning electrical attachments.  ETL listed as a UL476 grounding clamp in both the US and Canada, The Mega-Coupler® Grounder™ safely carried over 5,000 Amps to the system ground without failure.  The patent pending device accommodates both indoor and outdoor above ground installations. ",
+            "url": "http://www.thelightsource.com/products/mega-coupler-grounder-222"
+        }        
+    ]
+}

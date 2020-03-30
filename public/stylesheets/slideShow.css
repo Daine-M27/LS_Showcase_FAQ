@@ -2,35 +2,37 @@
 .mySlides {display: none;}
 
 .button {    
-    width: auto;
-    height: auto;
-    background: #000000;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    position: relative;
+  width: auto;
+  height: auto;
+  background: #000000;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
 }
 
 img {
-    vertical-align: middle;
-    
+  vertical-align: middle;    
 }
+
 .w100 {
-    width: auto;
-    height: 60vh;
+  width: 100%;    
 }
 
 div.img-container{
-    text-align: center;
-    width: 100%;
-    
+  text-align: center;
+  width: 100%;    
 }
 
 div.text-container{
-    padding-bottom:25px;
+  padding-bottom:25px;
+}
+
+div.link-container{
+  padding: 10px;
 }
 
 /* Slideshow container */
@@ -45,10 +47,7 @@ div.text-container{
 .text {
   color: #000000;
   font-size: 15px;
-  padding: 8px 12px;
-  position: relative;
-  bottom: 8px;
-  width: 100%;
+  padding: 8px 12px;  
   text-align: center;
 }
 

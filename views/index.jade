@@ -10,10 +10,11 @@ block content
         .mySlides.fade        
           //.numbertext= i+"/"+allSlides.slides.length
           div.img-container
-            img(src=slide.imgSrc style="height:60vh").w100
+            img(src=slide.imgSrc).w100
             div.text-container
               .text=slide.text
-              a(class='button' href=slide.url) More Info
+              div.link-container
+                a(class='button' href=slide.url) More Info
     br
     //- .text-center
     //-   for var x=0; x < allSlides.slides.length; x++
