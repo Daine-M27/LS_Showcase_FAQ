@@ -2,10 +2,9 @@ extends layout
 
 block content
   #contents    
-    p Whats new at The Light Source
+    p.strong Whats New at The Light Source
     
-    .slideshow-container
-      
+    .slideshow-container      
       for slide in allSlides.slides         
         .mySlides.fade        
           //.numbertext= i+"/"+allSlides.slides.length
@@ -14,12 +13,19 @@ block content
             div.text-container
               .text=slide.text
               div.link-container
-                a(class='button' href=slide.url) More Info
+                a(class='button' href=slide.url) More Info      
+      #dot-container.text-center      
+        each slide, val in allSlides.slides
+          span.dot(onclick="currentSlide("+(val+1)+")")    
     br
-    //- .text-center
-    //-   for var x=0; x < allSlides.slides.length; x++
-    //-     span.dot
-    .accordian-container    
+    .faq-title
+      h4 Frequently Asked Questions
+    .faq-search      
+      input(id="searchText" type="text" placeholder="Keyword Search...")
+      button.search-button(onclick="searchFAQ()") Search
+      button.reset-button(onclick="resetAll()") Reset
+    br
+    .accordion-container    
       for question in questions.faq
         button.accordion= question.Question
         .panel

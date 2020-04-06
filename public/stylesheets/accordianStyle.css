@@ -1,7 +1,8 @@
 .accordion-container {
-    max-width: 1000px;
+  max-width: 1000px;
   position: relative;
-  margin: auto; 
+  margin: auto;
+  min-height: 60vh; 
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
